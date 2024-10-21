@@ -1,0 +1,25 @@
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    
+    .navbar {
+      .navbar ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        
+        .navbar ul li {
+          margin: 0 15px;
+          
+          .navbar ul li a {
+            color: #000000;
+            font-size: 20px;
+            
+            &:hover {
+              color: #ff0000;
+            }
+          }
+        }
+      }
+    }
+  }
